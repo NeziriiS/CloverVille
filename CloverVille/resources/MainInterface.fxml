@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="C.MainController"
+            prefWidth="800"
+            prefHeight="600">
+
+    <ImageView fitWidth="70"
+               preserveRatio="true"
+               layoutX="18"
+               layoutY="14">
+        <image>
+            <Image url="@Logo.png"/>
+        </image>
+    </ImageView>
+
+    <VBox alignment="CENTER"
+          prefWidth="800"
+          prefHeight="600"
+          styleClass="menu-box">
+
+        <Button text="Register Activities" styleClass="menu-button" onAction="#openRegisterActivities"/>
+        <Button text="Residents"           styleClass="menu-button" onAction="#openResidents"/>
+        <Button text="Green Actions"       styleClass="menu-button" onAction="#openGreenActivities"/>
+        <Button text="Trade Offer"         styleClass="menu-button" onAction="#openTradeOffers"/>
+        <Button text="Communal Tasks"      styleClass="menu-button" onAction="#openCommunalTasks"/>
+        <Button text="Milestones"          styleClass="menu-button" onAction="#openMilestones"/>
+        <Button text="Boost"               styleClass="menu-button" onAction="#openBoost"/>
+
+    </VBox>
+
+</AnchorPane>
+
