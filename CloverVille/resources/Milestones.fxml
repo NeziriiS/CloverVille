@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10"
+      alignment="CENTER"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="C.MilestonesController">
+
+    <TextField fx:id="milestoneField" promptText="Milestone title"/>
+
+    <Button text="Add"
+            onAction="#addMilestone"/>
+
+    <ListView fx:id="milestoneListView"/>
+
+    <Button text="Delete"
+            onAction="#deleteMilestone"/>
+
+    <Button text="Back"
+            onAction="#goBackToMain"/>
+
+</VBox>

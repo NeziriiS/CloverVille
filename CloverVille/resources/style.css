@@ -1,0 +1,20 @@
+.root {
+    -fx-background-color: #e6cfcf;
+}
+
+.menu-box {
+    -fx-spacing: 18;
+}
+
+.menu-button {
+    -fx-background-color: white;
+    -fx-background-radius: 30;
+    -fx-pref-width: 300;
+    -fx-pref-height: 45;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.menu-button:hover {
+    -fx-background-color: #f5f5f5;
+}
